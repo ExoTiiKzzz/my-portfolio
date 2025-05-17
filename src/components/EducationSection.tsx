@@ -44,7 +44,7 @@ export default function EducationSection() {
                       <Award className="h-4 w-4 text-purple-500" />
                     </div>
                     <h4 className="text-sm font-medium">
-                      ✨ Achievements & Activities
+                      ✨ Réalisations & Distinctions
                     </h4>
                   </div>
                   <ul className="list-none ml-4 space-y-2 text-sm">

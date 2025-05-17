@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Développeur web fullstack 👨‍💻
             </motion.p>
 
             <motion.div
@@ -109,7 +109,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Profile"
                 className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
@@ -122,15 +122,14 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              🚀 Développeur fullstack web passionné, je conçois et développe des applications web performantes, intuitives et évolutives.
+              Curieux de nature, je suis constamment à la recherche de nouvelles technologies, de nouveaux outils et de
+              meilleures pratiques pour améliorer mes compétences et enrichir mes projets.
+              <br /><br />Mon parcours m’a permis d’explorer autant le front-end que le back-end, avec une attention particulière
+              portée à l’expérience utilisateur, à la qualité du code et à la maintenabilité des applications.
+              J’aime relever des défis techniques, apprendre continuellement, et transformer les idées en solutions concrètes et efficaces.
+              <br /><br />Que ce soit pour créer un produit from scratch, intégrer une équipe ou contribuer à un projet d'un ami,
+              je mets mon enthousiasme et mon expertise au service de chaque projet.
             </p>
           </div>
         </MotionWrapper>

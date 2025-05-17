@@ -23,11 +23,11 @@ export default function GlassHeader() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "skills", "projects", "awards", "education"].map(
+          {["experience", "skills", "projets", "education"].map(
             (item, index) => (
               <motion.a
                 key={item}
-                href={`#${item}`}
+                href={`#${item === "projets" ? "projects" : item}`}
                 className="transition-colors hover:text-foreground/80 text-foreground/60"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -36,8 +36,7 @@ export default function GlassHeader() {
               >
                 {item === "experience" && "💼 "}
                 {item === "skills" && "🛠️ "}
-                {item === "projects" && "🚀 "}
-                {item === "awards" && "🏆 "}
+                {item === "projets" && "🚀 "}
                 {item === "education" && "🎓 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
@@ -71,7 +70,7 @@ export default function GlassHeader() {
             transition={{ duration: 0.3 }}
           >
             <nav className="flex flex-col space-y-4 text-sm font-medium">
-              {["experience", "skills", "projects", "awards", "education"].map(
+              {["experience", "skills", "Projets", "education"].map(
                 (item, index) => (
                   <motion.a
                     key={item}
@@ -84,8 +83,7 @@ export default function GlassHeader() {
                   >
                     {item === "experience" && "💼 "}
                     {item === "skills" && "🛠️ "}
-                    {item === "projects" && "🚀 "}
-                    {item === "awards" && "🏆 "}
+                    {item === "Projets" && "🚀 "}
                     {item === "education" && "🎓 "}
                     {item.charAt(0).toUpperCase() + item.slice(1)}
                   </motion.a>
